@@ -2,6 +2,7 @@ body{
     border-left: 12vw solid blue;
     border-right: 12vw solid blue;
     border-top: 5vw solid blueviolet;
+    border-bottom: 5vw solid blueviolet;
     background-color: lightblue;
    /* padding-left: 2em;*/
     /*This is an acknowledgement that i know its wacky*/
@@ -11,10 +12,10 @@ h1 {
     height: 25vh;
 }
 
-main {
+/*main {
     padding-left: 2em;
     padding-right: 2em;
-}
+}*/
 hr.seperator {
     border-top: 30px solid rgba(0, 162, 255, 0.918);
 }
@@ -81,6 +82,22 @@ ul li{
     height: 25vh;
     object-fit: cover;
     display:block;
+}
+#id{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+#about {
+    text-align: center;
+}
+.contactnav ul{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    border:none;
+}
+.contactnav ul il {
+    border: none;
 }
 }
 
