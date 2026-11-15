@@ -25,7 +25,10 @@ hr.seperator {
 ul {
     list-style-type: none;
 }
-
+nav.flex{
+    position: relative;
+    z-index: 100;
+}
 nav.flex ul li{
     border: .3vw solid #ff000049;
     text-align: center;
