@@ -1,4 +1,32 @@
-/* Write your own styles here. */
+body{
+    border-left: 12vw solid blue;
+    border-right: 12vw solid blue;
+    border-top: 5vw solid blueviolet;
+    background-color: lightblue;
+    /*This is an acknowledgement that i know its wacky*/
+}
+h1 {
+    width: 25vw;
+    height: 25vh;
+}
 #hero {
     background-color: rgba(96,249,104,0.5);
+
 }
+
+
+@media (min-width:768px) {
+    
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroimg {
+    width: 450px;
+    height: 350px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+}
+
