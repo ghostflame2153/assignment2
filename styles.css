@@ -13,19 +13,56 @@ h1 {
 
 main {
     padding-left: 2em;
+    padding-right: 2em;
 }
 hr.seperator {
-    border-top: 20px solid rgba(0, 162, 255, 0.918);
+    border-top: 30px solid rgba(0, 162, 255, 0.918);
 }
+
 @media (min-width:768px) {
-    
-.body-flex {
+ul {
+    list-style-type: none;
+}
+ul li{
+    border: 5px solid #ff000049;
+    text-align: center;
+    width: 200px;
+    padding:1%;
+    margin-bottom: 5px;
+    /* enough room for 1-2 more list objects in future potentially */
+
+}
+.body-flex{
     padding-left: 0;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(96,249,104,0.5);
+}
+
+.hero-flex{
+    display:flex;
+    flex-direction: row;
+    align-items:stretch;
+    justify-content: space-between;
+}
+#hero{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+#hero2{
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#hero a.highlight {
+    display:inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transform:scale(0.98);
+    color:red;
 }
 .heroimg {
     width: 350px;
@@ -37,6 +74,7 @@ hr.seperator {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
+    padding-left: 2em;
 }
 .grid img {
     width: 20vw;;
