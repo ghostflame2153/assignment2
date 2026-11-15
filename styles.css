@@ -131,7 +131,8 @@ body{
     border-bottom: 2vw solid blueviolet;
 }
 nav.flex{
-    padding-top:15px;
+    position: relative;
+    z-index: 100;
 }
 nav.flex ul li{
     border: .3vw solid #ff000049;
